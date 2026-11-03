@@ -1,0 +1,29 @@
+# Dependencies, generated output, and machine settings
+node_modules/
+dist/
+.vercel/
+.env
+.env.*
+*.local
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.claude/
+.agents/
+
+# Local launchers, reference drawings, and test pages
+*.bat
+/serve.mjs
+/actual layouts/
+/tests/
+*.pdf
+
+# Legacy Whitewood modules outside this model's import graph
+/src/scene/house.js
+/src/scene/interior/ceilings.js
+/src/scene/interior/doors.js
+/src/scene/interior/furniture.js
+/src/scene/interior/index.js
+/src/scene/interior/kitchen.js
+/src/scene/interior/trims.js
